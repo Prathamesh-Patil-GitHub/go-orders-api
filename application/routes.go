@@ -23,6 +23,7 @@ func loadRoutes() *chi.Mux {
 	return router
 }
 
+// This function loads all the routes related to Orders
 func loadOrderRoutes(router chi.Router) {
 	orderHandler := &handler.Order{}
 
